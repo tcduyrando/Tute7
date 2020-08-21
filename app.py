@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 #Main page
-@app.route('/templates')
+@app.route('/')
 def main_page():
 	return render_template('random.html')
 
